@@ -1,2 +1,9 @@
 # SCCL-AD : Scale and Correlation Aware Contrastive Learning for Anomaly Detection on Multivariate Time Series
 SCCL-AD aims to address the high-dimensional and correlated data challenge and enhance the accuracy and performance of anomaly detection in time series data by explicitly incorporating inter-variable correlations into the representation learning objective and by capturing temporal patterns at multiple scales. The proposed approach, Scale and Correlation-Aware Contrastive Learning for Anomaly Detection (SCCL-AD), applied to multivariate time series and consists of three main components: a multi-scale layer to capture temporal patterns at different scales, a transformation layer with a fixed set of learnable transformations to generate diverse augmented views, and an encoder that maps both original and transformed representations into a shared embedding space. All three components are trained jointly on normal (non-anomalous) data using a correlation-aware contrastive learning objective.
+
+<img width="910" height="508" alt="image" src="https://github.com/user-attachments/assets/82b86aed-701e-47c4-a48b-ba0adddea587" />
+
+Quickstart
+Installation
+Given a python environment (note: this project is fully tested under python 3.13), install the fllowing dependency:
+!pip install git+https://github.com/ahstat/affiliation-metrics-py.git
