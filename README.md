@@ -20,8 +20,8 @@ python Launch_Exps.py --config-file $1 --dataset-name $2
 Note: replace $# with available options
 
 ## How to Use
-1. When using your own data, please put your data files under [DATA](DATA).
+1. When using your own data, please put your data files under [DATA](SCCL-AD/DATA).
 
-2. Create a config file which contains your hyper-parameters under [config_files](config_files).  
+2. Create a config file which contains your hyper-parameters under [config_files](SCCL-AD/config_files).  
 
-3. Add your data loader to the function ''load_data'' in the [loader/LoadData.py](loader/LoadData.py).
+3. Add your data loader to the function ''load_data'' in the [loader/LoadData.py](SCCL-AD/loader/LoadData.py).
