@@ -3,7 +3,25 @@ SCCL-AD aims to address the high-dimensional and correlated data challenge and e
 
 <img width="910" height="508" alt="image" src="https://github.com/user-attachments/assets/82b86aed-701e-47c4-a48b-ba0adddea587" />
 
-Quickstart
-Installation
+# Quickstart
+
 Given a python environment (note: this project is fully tested under python 3.13), install the fllowing dependency:
+
+```
 !pip install git+https://github.com/ahstat/affiliation-metrics-py.git
+```
+
+Please run the following command to train and test the model:
+
+```
+python Launch_Exps.py --config-file $1 --dataset-name $2
+```
+
+Note: replace $# with available options
+
+## How to Use
+1. When using your own data, please put your data files under [DATA](DATA).
+
+2. Create a config file which contains your hyper-parameters under [config_files](config_files).  
+
+3. Add your data loader to the function ''load_data'' in the [loader/LoadData.py](loader/LoadData.py).
